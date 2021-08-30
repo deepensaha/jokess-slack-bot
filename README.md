@@ -46,6 +46,15 @@ python -m venv env
 3. Enter **Email** and **Password**.
 4. Run the following command to check the scheduled task/job - `heroku run python app.py --channel=<CHANNEL> --token=<TOKEN> --app <APP NAME>`
 
+### Environment Variables (Optional)
+
+Jokess variables can also be added to environment variables as follows
+
+```bash
+export JOKESS_BOT_CHANNEL=<CHANNEL>
+export JOKESS_BOT_AUTH_TOKEN=<TOKEN>
+```
+
 ## Command
 
 ```bash

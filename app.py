@@ -80,7 +80,7 @@ try:
 
 
     channel = args.channel if args.channel else os.getenv('JOKESS_BOT_CHANNEL')
-    token = args.token if args.token else os.getenv('JOKESS_BOT_USER_AUTH_TOKEN')
+    token = args.token if args.token else os.getenv('JOKESS_BOT_AUTH_TOKEN')
 
     client = WebClient(token = token)
 
